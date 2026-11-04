@@ -12,7 +12,8 @@ import {
     Gauge,
     LogOut,
     Building2,
-    ChevronsUpDown
+    ChevronsUpDown,
+    ShieldCheck
 } from "lucide-react";
 
 import { AuthContext } from "../../app/context/AuthContext";
@@ -120,6 +121,7 @@ export default function Sidebar() {
                 <Item to="/concientizacion/curso" label="Curso" icon={<BookOpen size={s} />} />
                 <Item to="/concientizacion/campanas" label="Campañas" icon={<Send size={s} />} />
                 <Item to="/concientizacion/reportes" label="Reportes" icon={<FileBarChart2 size={s} />} />
+                <Item to="/concientizacion/accesos" label="Accesos de cliente" icon={<ShieldCheck size={s} />} />
 
                 <LineHeader title="Investigación y DD" chip="Pronto" tone="bg-surface-2 text-faint" />
                 <Item to="/investigacion" label="Debida diligencia" icon={<Search size={s} />} disabled />

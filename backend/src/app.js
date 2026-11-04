@@ -9,14 +9,18 @@ import coursePortalRoutes from "./routes/coursePortal.routes.js";
 import campaignRoutes from "./routes/campaign.routes.js";
 import reportRoutes from "./routes/report.routes.js";
 import crmRoutes from "./routes/crm.routes.js";
+import clientAccountRoutes from "./routes/clientAccount.routes.js";
+import clientAuthRoutes from "./routes/clientAuth.routes.js";
+import clientPortalRoutes from "./routes/clientPortal.routes.js";
 
-import { verifyStaff, verifyTrainee } from "./middlewares/auth.middleware.js";
+import { verifyStaff, verifyTrainee, verifyClient } from "./middlewares/auth.middleware.js";
 
 const app = express();
 
 const allowedOrigins = [
     process.env.PLATFORM_ORIGIN || "http://localhost:5175",
-    process.env.TRAINEE_PORTAL_ORIGIN || "http://localhost:5176"
+    process.env.TRAINEE_PORTAL_ORIGIN || "http://localhost:5176",
+    process.env.CLIENT_PORTAL_ORIGIN || "http://localhost:5177"
 ];
 
 // En desarrollo cualquier localhost sirve (Vite puede moverse de puerto).
@@ -58,6 +62,15 @@ app.use("/api/reports", verifyStaff, reportRoutes);
 // protegidas con su PROPIO token (type="trainee"), nunca el de staff.
 app.use("/api/course-auth", courseAuthRoutes);
 app.use("/api/course-portal", verifyTrainee, coursePortalRoutes);
+
+// Gestión de accesos al portal de cliente (consola de staff)
+app.use("/api/client-accounts", verifyStaff, clientAccountRoutes);
+
+// Portal de cliente (contactos de la empresa): login público + rutas
+// protegidas con su PROPIO token (type="client"). Solo lectura: avance
+// general de las campañas de su empresa, acotado por crmCompanyId.
+app.use("/api/client-auth", clientAuthRoutes);
+app.use("/api/client-portal", verifyClient, clientPortalRoutes);
 
 // --- Línea 1: Exposición / EASM ---
 // SOLO DISEÑO en esta fase: no hay backend. La UI corre con datos de

@@ -21,6 +21,7 @@ import CoursePage from "../../features/awareness/CoursePage";
 import CampaignsPage from "../../features/awareness/CampaignsPage";
 import CampaignDetailPage from "../../features/awareness/CampaignDetailPage";
 import ReportsPage from "../../features/awareness/ReportsPage";
+import ClientAccessPage from "../../features/awareness/ClientAccessPage";
 
 import ComingSoonPage from "../../features/placeholder/ComingSoonPage";
 
@@ -57,6 +58,7 @@ export default function AppRouter() {
                                 <Route path="/concientizacion/campanas" element={<CampaignsPage />} />
                                 <Route path="/concientizacion/campanas/:campaignId" element={<CampaignDetailPage />} />
                                 <Route path="/concientizacion/reportes" element={<ReportsPage />} />
+                                <Route path="/concientizacion/accesos" element={<ClientAccessPage />} />
 
                                 <Route path="/investigacion" element={<ComingSoonPage line="Investigación y Debida Diligencia" />} />
                                 <Route path="/riesgos" element={<ComingSoonPage line="Evaluación de Riesgos" />} />
