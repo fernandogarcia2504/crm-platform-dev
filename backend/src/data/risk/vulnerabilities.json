@@ -1,0 +1,706 @@
+{
+  "note": "Debilidades típicas por tipo de activo (basadas en ISO/IEC 27005) con controles del Anexo A 2022 sugeridos para el tratamiento. El mapeo es una recomendación de Atalaya, no parte de la norma.",
+  "vulnerabilities": [
+    {
+      "code": "VU-HW-01",
+      "assetType": "Hardware",
+      "name": "Mantenimiento insuficiente o instalación defectuosa",
+      "suggestedControls": [
+        "A.7.13"
+      ]
+    },
+    {
+      "code": "VU-HW-02",
+      "assetType": "Hardware",
+      "name": "Falta de esquemas de reemplazo periódico",
+      "suggestedControls": [
+        "A.7.13",
+        "A.5.9"
+      ]
+    },
+    {
+      "code": "VU-HW-03",
+      "assetType": "Hardware",
+      "name": "Susceptibilidad a humedad, polvo o suciedad",
+      "suggestedControls": [
+        "A.7.5",
+        "A.7.8"
+      ]
+    },
+    {
+      "code": "VU-HW-04",
+      "assetType": "Hardware",
+      "name": "Sensibilidad a radiación electromagnética",
+      "suggestedControls": [
+        "A.7.8",
+        "A.7.12"
+      ]
+    },
+    {
+      "code": "VU-HW-05",
+      "assetType": "Hardware",
+      "name": "Falta de control de cambios de configuración",
+      "suggestedControls": [
+        "A.8.9",
+        "A.8.32"
+      ]
+    },
+    {
+      "code": "VU-HW-06",
+      "assetType": "Hardware",
+      "name": "Susceptibilidad a variaciones de voltaje",
+      "suggestedControls": [
+        "A.7.11"
+      ]
+    },
+    {
+      "code": "VU-HW-07",
+      "assetType": "Hardware",
+      "name": "Susceptibilidad a variaciones de temperatura",
+      "suggestedControls": [
+        "A.7.5",
+        "A.7.11"
+      ]
+    },
+    {
+      "code": "VU-HW-08",
+      "assetType": "Hardware",
+      "name": "Almacenamiento de medios sin protección",
+      "suggestedControls": [
+        "A.7.10",
+        "A.7.9"
+      ]
+    },
+    {
+      "code": "VU-HW-09",
+      "assetType": "Hardware",
+      "name": "Falta de cuidado en la disposición de equipos",
+      "suggestedControls": [
+        "A.7.14",
+        "A.8.10"
+      ]
+    },
+    {
+      "code": "VU-HW-10",
+      "assetType": "Hardware",
+      "name": "Copiado no controlado de información",
+      "suggestedControls": [
+        "A.8.12",
+        "A.7.10"
+      ]
+    },
+    {
+      "code": "VU-SW-01",
+      "assetType": "Software",
+      "name": "Pruebas de software ausentes o insuficientes",
+      "suggestedControls": [
+        "A.8.29"
+      ]
+    },
+    {
+      "code": "VU-SW-02",
+      "assetType": "Software",
+      "name": "Fallas conocidas sin parchar",
+      "suggestedControls": [
+        "A.8.8"
+      ]
+    },
+    {
+      "code": "VU-SW-03",
+      "assetType": "Software",
+      "name": "Sesión sin bloqueo al dejar la estación",
+      "suggestedControls": [
+        "A.7.7",
+        "A.8.5"
+      ]
+    },
+    {
+      "code": "VU-SW-04",
+      "assetType": "Software",
+      "name": "Disposición o reutilización de medios sin borrado seguro",
+      "suggestedControls": [
+        "A.7.14",
+        "A.8.10"
+      ]
+    },
+    {
+      "code": "VU-SW-05",
+      "assetType": "Software",
+      "name": "Falta de pistas de auditoría",
+      "suggestedControls": [
+        "A.8.15"
+      ]
+    },
+    {
+      "code": "VU-SW-06",
+      "assetType": "Software",
+      "name": "Asignación errónea de derechos de acceso",
+      "suggestedControls": [
+        "A.5.18",
+        "A.8.2"
+      ]
+    },
+    {
+      "code": "VU-SW-07",
+      "assetType": "Software",
+      "name": "Software ampliamente distribuido sin control de versiones",
+      "suggestedControls": [
+        "A.8.8",
+        "A.8.19"
+      ]
+    },
+    {
+      "code": "VU-SW-08",
+      "assetType": "Software",
+      "name": "Interfaz complicada que induce errores",
+      "suggestedControls": [
+        "A.8.26",
+        "A.6.3"
+      ]
+    },
+    {
+      "code": "VU-SW-09",
+      "assetType": "Software",
+      "name": "Falta de documentación",
+      "suggestedControls": [
+        "A.5.37"
+      ]
+    },
+    {
+      "code": "VU-SW-10",
+      "assetType": "Software",
+      "name": "Configuración incorrecta de parámetros",
+      "suggestedControls": [
+        "A.8.9"
+      ]
+    },
+    {
+      "code": "VU-SW-11",
+      "assetType": "Software",
+      "name": "Falta de mecanismos de identificación y autenticación",
+      "suggestedControls": [
+        "A.8.5",
+        "A.5.16",
+        "A.5.17"
+      ]
+    },
+    {
+      "code": "VU-SW-12",
+      "assetType": "Software",
+      "name": "Contraseñas almacenadas sin protección",
+      "suggestedControls": [
+        "A.5.17",
+        "A.8.24"
+      ]
+    },
+    {
+      "code": "VU-SW-13",
+      "assetType": "Software",
+      "name": "Gestión deficiente de contraseñas",
+      "suggestedControls": [
+        "A.5.17"
+      ]
+    },
+    {
+      "code": "VU-SW-14",
+      "assetType": "Software",
+      "name": "Servicios innecesarios habilitados",
+      "suggestedControls": [
+        "A.8.9",
+        "A.8.20"
+      ]
+    },
+    {
+      "code": "VU-SW-15",
+      "assetType": "Software",
+      "name": "Software inmaduro o nuevo",
+      "suggestedControls": [
+        "A.8.25",
+        "A.8.29"
+      ]
+    },
+    {
+      "code": "VU-SW-16",
+      "assetType": "Software",
+      "name": "Especificaciones poco claras para desarrolladores",
+      "suggestedControls": [
+        "A.8.25",
+        "A.8.26"
+      ]
+    },
+    {
+      "code": "VU-SW-17",
+      "assetType": "Software",
+      "name": "Falta de control de cambios efectivo",
+      "suggestedControls": [
+        "A.8.32"
+      ]
+    },
+    {
+      "code": "VU-SW-18",
+      "assetType": "Software",
+      "name": "Descarga e instalación no controlada de software",
+      "suggestedControls": [
+        "A.8.19",
+        "A.8.7"
+      ]
+    },
+    {
+      "code": "VU-SW-19",
+      "assetType": "Software",
+      "name": "Falta de copias de respaldo",
+      "suggestedControls": [
+        "A.8.13"
+      ]
+    },
+    {
+      "code": "VU-SW-20",
+      "assetType": "Software",
+      "name": "Código con fallas de seguridad (inyección, XSS, etc.)",
+      "suggestedControls": [
+        "A.8.28",
+        "A.8.29"
+      ]
+    },
+    {
+      "code": "VU-SW-21",
+      "assetType": "Software",
+      "name": "Entornos de desarrollo y producción no separados",
+      "suggestedControls": [
+        "A.8.31"
+      ]
+    },
+    {
+      "code": "VU-NET-01",
+      "assetType": "Red",
+      "name": "Falta de prueba de envío/recepción (no repudio)",
+      "suggestedControls": [
+        "A.5.14",
+        "A.8.24"
+      ]
+    },
+    {
+      "code": "VU-NET-02",
+      "assetType": "Red",
+      "name": "Líneas de comunicación sin protección",
+      "suggestedControls": [
+        "A.8.20",
+        "A.8.24"
+      ]
+    },
+    {
+      "code": "VU-NET-03",
+      "assetType": "Red",
+      "name": "Tráfico sensible sin cifrar",
+      "suggestedControls": [
+        "A.8.24",
+        "A.5.14"
+      ]
+    },
+    {
+      "code": "VU-NET-04",
+      "assetType": "Red",
+      "name": "Cableado deficiente",
+      "suggestedControls": [
+        "A.7.12"
+      ]
+    },
+    {
+      "code": "VU-NET-05",
+      "assetType": "Red",
+      "name": "Punto único de falla",
+      "suggestedControls": [
+        "A.8.14"
+      ]
+    },
+    {
+      "code": "VU-NET-06",
+      "assetType": "Red",
+      "name": "Falta de autenticación de emisor y receptor",
+      "suggestedControls": [
+        "A.8.5",
+        "A.5.14"
+      ]
+    },
+    {
+      "code": "VU-NET-07",
+      "assetType": "Red",
+      "name": "Arquitectura de red insegura o sin segmentación",
+      "suggestedControls": [
+        "A.8.22",
+        "A.8.27"
+      ]
+    },
+    {
+      "code": "VU-NET-08",
+      "assetType": "Red",
+      "name": "Transferencia de contraseñas en texto claro",
+      "suggestedControls": [
+        "A.5.17",
+        "A.8.24"
+      ]
+    },
+    {
+      "code": "VU-NET-09",
+      "assetType": "Red",
+      "name": "Gestión de red inadecuada",
+      "suggestedControls": [
+        "A.8.20",
+        "A.8.21"
+      ]
+    },
+    {
+      "code": "VU-NET-10",
+      "assetType": "Red",
+      "name": "Conexiones a red pública sin protección",
+      "suggestedControls": [
+        "A.8.20",
+        "A.8.21"
+      ]
+    },
+    {
+      "code": "VU-NET-11",
+      "assetType": "Red",
+      "name": "Servicios o paneles expuestos a internet innecesariamente",
+      "suggestedControls": [
+        "A.8.20",
+        "A.8.9",
+        "A.5.9"
+      ]
+    },
+    {
+      "code": "VU-NET-12",
+      "assetType": "Red",
+      "name": "Falta de filtrado de navegación",
+      "suggestedControls": [
+        "A.8.23"
+      ]
+    },
+    {
+      "code": "VU-PER-01",
+      "assetType": "Personal",
+      "name": "Dependencia de personal clave / ausencia de personal",
+      "suggestedControls": [
+        "A.5.2",
+        "A.5.29"
+      ]
+    },
+    {
+      "code": "VU-PER-02",
+      "assetType": "Personal",
+      "name": "Procedimientos de reclutamiento inadecuados",
+      "suggestedControls": [
+        "A.6.1",
+        "A.6.2"
+      ]
+    },
+    {
+      "code": "VU-PER-03",
+      "assetType": "Personal",
+      "name": "Capacitación en seguridad insuficiente",
+      "suggestedControls": [
+        "A.6.3"
+      ]
+    },
+    {
+      "code": "VU-PER-04",
+      "assetType": "Personal",
+      "name": "Uso incorrecto de software y hardware",
+      "suggestedControls": [
+        "A.6.3",
+        "A.5.10"
+      ]
+    },
+    {
+      "code": "VU-PER-05",
+      "assetType": "Personal",
+      "name": "Falta de concientización en seguridad",
+      "suggestedControls": [
+        "A.6.3"
+      ]
+    },
+    {
+      "code": "VU-PER-06",
+      "assetType": "Personal",
+      "name": "Falta de mecanismos de monitoreo",
+      "suggestedControls": [
+        "A.8.16"
+      ]
+    },
+    {
+      "code": "VU-PER-07",
+      "assetType": "Personal",
+      "name": "Trabajo sin supervisión de personal externo o de limpieza",
+      "suggestedControls": [
+        "A.7.2",
+        "A.7.6"
+      ]
+    },
+    {
+      "code": "VU-PER-08",
+      "assetType": "Personal",
+      "name": "Falta de políticas de uso de telecomunicaciones y mensajería",
+      "suggestedControls": [
+        "A.5.10",
+        "A.5.14"
+      ]
+    },
+    {
+      "code": "VU-PER-09",
+      "assetType": "Personal",
+      "name": "Bajas de personal sin retiro oportuno de accesos",
+      "suggestedControls": [
+        "A.6.5",
+        "A.5.11",
+        "A.5.18"
+      ]
+    },
+    {
+      "code": "VU-SIT-01",
+      "assetType": "Sitio / instalaciones",
+      "name": "Uso inadecuado o descuidado del control de acceso físico",
+      "suggestedControls": [
+        "A.7.1",
+        "A.7.2"
+      ]
+    },
+    {
+      "code": "VU-SIT-02",
+      "assetType": "Sitio / instalaciones",
+      "name": "Ubicación en zona susceptible a inundación",
+      "suggestedControls": [
+        "A.7.5"
+      ]
+    },
+    {
+      "code": "VU-SIT-03",
+      "assetType": "Sitio / instalaciones",
+      "name": "Red eléctrica inestable",
+      "suggestedControls": [
+        "A.7.11"
+      ]
+    },
+    {
+      "code": "VU-SIT-04",
+      "assetType": "Sitio / instalaciones",
+      "name": "Falta de protección física del edificio, puertas y ventanas",
+      "suggestedControls": [
+        "A.7.1",
+        "A.7.3"
+      ]
+    },
+    {
+      "code": "VU-SIT-05",
+      "assetType": "Sitio / instalaciones",
+      "name": "Falta de monitoreo de seguridad física",
+      "suggestedControls": [
+        "A.7.4"
+      ]
+    },
+    {
+      "code": "VU-ORG-01",
+      "assetType": "Organización",
+      "name": "Falta de procedimiento formal de alta y baja de usuarios",
+      "suggestedControls": [
+        "A.5.16",
+        "A.5.18"
+      ]
+    },
+    {
+      "code": "VU-ORG-02",
+      "assetType": "Organización",
+      "name": "Falta de revisión periódica de derechos de acceso",
+      "suggestedControls": [
+        "A.5.18"
+      ]
+    },
+    {
+      "code": "VU-ORG-03",
+      "assetType": "Organización",
+      "name": "Falta de cláusulas de seguridad en contratos con clientes y terceros",
+      "suggestedControls": [
+        "A.5.20",
+        "A.6.6"
+      ]
+    },
+    {
+      "code": "VU-ORG-04",
+      "assetType": "Organización",
+      "name": "Falta de monitoreo de servicios de proveedores",
+      "suggestedControls": [
+        "A.5.22"
+      ]
+    },
+    {
+      "code": "VU-ORG-05",
+      "assetType": "Organización",
+      "name": "Falta de auditorías o revisiones independientes",
+      "suggestedControls": [
+        "A.5.35",
+        "A.5.36"
+      ]
+    },
+    {
+      "code": "VU-ORG-06",
+      "assetType": "Organización",
+      "name": "Falta de procedimiento de identificación y evaluación de riesgos",
+      "suggestedControls": [],
+      "clauses": [
+        "6.1.2",
+        "8.2"
+      ]
+    },
+    {
+      "code": "VU-ORG-07",
+      "assetType": "Organización",
+      "name": "Falta de reporte de eventos y debilidades",
+      "suggestedControls": [
+        "A.6.8"
+      ]
+    },
+    {
+      "code": "VU-ORG-08",
+      "assetType": "Organización",
+      "name": "Responsabilidades de seguridad no definidas en puestos",
+      "suggestedControls": [
+        "A.5.2",
+        "A.6.2"
+      ]
+    },
+    {
+      "code": "VU-ORG-09",
+      "assetType": "Organización",
+      "name": "Falta de planes de continuidad",
+      "suggestedControls": [
+        "A.5.29",
+        "A.5.30"
+      ]
+    },
+    {
+      "code": "VU-ORG-10",
+      "assetType": "Organización",
+      "name": "Falta de política de uso de correo electrónico",
+      "suggestedControls": [
+        "A.5.10",
+        "A.5.14"
+      ]
+    },
+    {
+      "code": "VU-ORG-11",
+      "assetType": "Organización",
+      "name": "Falta de bitácoras de administrador y operador",
+      "suggestedControls": [
+        "A.8.15"
+      ]
+    },
+    {
+      "code": "VU-ORG-12",
+      "assetType": "Organización",
+      "name": "Falta de procedimiento de manejo de información clasificada",
+      "suggestedControls": [
+        "A.5.12",
+        "A.5.13"
+      ]
+    },
+    {
+      "code": "VU-ORG-13",
+      "assetType": "Organización",
+      "name": "Falta de proceso disciplinario",
+      "suggestedControls": [
+        "A.6.4"
+      ]
+    },
+    {
+      "code": "VU-ORG-14",
+      "assetType": "Organización",
+      "name": "Falta de política de dispositivos móviles y de punto final",
+      "suggestedControls": [
+        "A.8.1"
+      ]
+    },
+    {
+      "code": "VU-ORG-15",
+      "assetType": "Organización",
+      "name": "Falta de control de activos fuera de las instalaciones",
+      "suggestedControls": [
+        "A.7.9"
+      ]
+    },
+    {
+      "code": "VU-ORG-16",
+      "assetType": "Organización",
+      "name": "Falta de política de escritorio y pantalla limpios",
+      "suggestedControls": [
+        "A.7.7"
+      ]
+    },
+    {
+      "code": "VU-ORG-17",
+      "assetType": "Organización",
+      "name": "Falta de gestión de incidentes de seguridad",
+      "suggestedControls": [
+        "A.5.24",
+        "A.5.25",
+        "A.5.26"
+      ]
+    },
+    {
+      "code": "VU-ORG-18",
+      "assetType": "Organización",
+      "name": "Falta de revisión por la dirección",
+      "suggestedControls": [
+        "A.5.4"
+      ]
+    },
+    {
+      "code": "VU-ORG-19",
+      "assetType": "Organización",
+      "name": "Falta de cumplimiento de propiedad intelectual",
+      "suggestedControls": [
+        "A.5.32"
+      ]
+    },
+    {
+      "code": "VU-ORG-20",
+      "assetType": "Organización",
+      "name": "Falta de inventario de activos",
+      "suggestedControls": [
+        "A.5.9"
+      ]
+    },
+    {
+      "code": "VU-ORG-21",
+      "assetType": "Organización",
+      "name": "Falta de evaluación de seguridad de servicios en la nube",
+      "suggestedControls": [
+        "A.5.23"
+      ]
+    },
+    {
+      "code": "VU-ORG-22",
+      "assetType": "Organización",
+      "name": "Falta de inteligencia de amenazas",
+      "suggestedControls": [
+        "A.5.7"
+      ]
+    },
+    {
+      "code": "VU-ORG-23",
+      "assetType": "Organización",
+      "name": "Falta de identificación de requisitos legales y regulatorios (p. ej. CNBV, Banxico, LFPDPPP)",
+      "suggestedControls": [
+        "A.5.31",
+        "A.5.34"
+      ]
+    },
+    {
+      "code": "VU-ORG-24",
+      "assetType": "Organización",
+      "name": "Falta de gestión de seguridad en proveedores",
+      "suggestedControls": [
+        "A.5.19",
+        "A.5.21"
+      ]
+    }
+  ]
+}

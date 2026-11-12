@@ -13,7 +13,9 @@ import {
     LogOut,
     Building2,
     ChevronsUpDown,
-    ShieldCheck
+    ShieldCheck,
+    ShieldAlert,
+    Library
 } from "lucide-react";
 
 import { AuthContext } from "../../app/context/AuthContext";
@@ -126,8 +128,9 @@ export default function Sidebar() {
                 <LineHeader title="Investigación y DD" chip="Pronto" tone="bg-surface-2 text-faint" />
                 <Item to="/investigacion" label="Debida diligencia" icon={<Search size={s} />} disabled />
 
-                <LineHeader title="Evaluación de riesgos" chip="Pronto" tone="bg-surface-2 text-faint" />
-                <Item to="/riesgos" label="Matriz de riesgos" icon={<Gauge size={s} />} disabled />
+                <LineHeader title="Evaluación de riesgos" chip="Activa" tone="bg-good/15 text-good" />
+                <Item to="/riesgos" label="Evaluaciones" icon={<ShieldAlert size={s} />} />
+                <Item to="/catalogo-iso27001" label="Catálogo ISO 27001" icon={<Library size={s} />} />
             </nav>
 
             <div className="border-t border-line p-2.5">

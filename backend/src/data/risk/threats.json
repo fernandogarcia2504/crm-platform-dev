@@ -1,0 +1,729 @@
+{
+  "note": "Ejemplos de amenazas típicas basados en ISO/IEC 27005 (anexo de ejemplos) + bloque complementario de amenazas cibernéticas actuales. affects: C=confidencialidad, I=integridad, D=disponibilidad.",
+  "threats": [
+    {
+      "code": "AM-FIS-01",
+      "group": "Daño físico",
+      "name": "Incendio",
+      "origin": [
+        "Accidental",
+        "Deliberada",
+        "Ambiental"
+      ],
+      "affects": [
+        "C",
+        "I",
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-FIS-02",
+      "group": "Daño físico",
+      "name": "Daño por agua",
+      "origin": [
+        "Accidental",
+        "Deliberada",
+        "Ambiental"
+      ],
+      "affects": [
+        "I",
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-FIS-03",
+      "group": "Daño físico",
+      "name": "Contaminación",
+      "origin": [
+        "Accidental",
+        "Deliberada",
+        "Ambiental"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-FIS-04",
+      "group": "Daño físico",
+      "name": "Accidente mayor",
+      "origin": [
+        "Accidental",
+        "Deliberada",
+        "Ambiental"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-FIS-05",
+      "group": "Daño físico",
+      "name": "Destrucción de equipo o medios",
+      "origin": [
+        "Accidental",
+        "Deliberada",
+        "Ambiental"
+      ],
+      "affects": [
+        "I",
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-FIS-06",
+      "group": "Daño físico",
+      "name": "Polvo, corrosión o congelamiento",
+      "origin": [
+        "Accidental",
+        "Deliberada",
+        "Ambiental"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-NAT-01",
+      "group": "Eventos naturales",
+      "name": "Fenómeno climático",
+      "origin": [
+        "Ambiental"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-NAT-02",
+      "group": "Eventos naturales",
+      "name": "Fenómeno sísmico",
+      "origin": [
+        "Ambiental"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-NAT-03",
+      "group": "Eventos naturales",
+      "name": "Fenómeno volcánico",
+      "origin": [
+        "Ambiental"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-NAT-04",
+      "group": "Eventos naturales",
+      "name": "Fenómeno meteorológico",
+      "origin": [
+        "Ambiental"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-NAT-05",
+      "group": "Eventos naturales",
+      "name": "Inundación",
+      "origin": [
+        "Ambiental"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-SRV-01",
+      "group": "Pérdida de servicios esenciales",
+      "name": "Falla de aire acondicionado o suministro de agua",
+      "origin": [
+        "Accidental",
+        "Deliberada"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-SRV-02",
+      "group": "Pérdida de servicios esenciales",
+      "name": "Pérdida de suministro eléctrico",
+      "origin": [
+        "Accidental",
+        "Deliberada",
+        "Ambiental"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-SRV-03",
+      "group": "Pérdida de servicios esenciales",
+      "name": "Falla de equipo de telecomunicaciones",
+      "origin": [
+        "Accidental",
+        "Deliberada"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-RAD-01",
+      "group": "Perturbación por radiación",
+      "name": "Radiación electromagnética",
+      "origin": [
+        "Accidental",
+        "Deliberada",
+        "Ambiental"
+      ],
+      "affects": [
+        "I",
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-RAD-02",
+      "group": "Perturbación por radiación",
+      "name": "Radiación térmica",
+      "origin": [
+        "Accidental",
+        "Deliberada",
+        "Ambiental"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-RAD-03",
+      "group": "Perturbación por radiación",
+      "name": "Pulsos electromagnéticos",
+      "origin": [
+        "Accidental",
+        "Deliberada",
+        "Ambiental"
+      ],
+      "affects": [
+        "I",
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-INF-01",
+      "group": "Compromiso de la información",
+      "name": "Intercepción de señales de interferencia comprometedoras",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-INF-02",
+      "group": "Compromiso de la información",
+      "name": "Espionaje remoto",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-INF-03",
+      "group": "Compromiso de la información",
+      "name": "Escucha encubierta (eavesdropping)",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-INF-04",
+      "group": "Compromiso de la información",
+      "name": "Robo de medios o documentos",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-INF-05",
+      "group": "Compromiso de la información",
+      "name": "Robo de equipo",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-INF-06",
+      "group": "Compromiso de la información",
+      "name": "Recuperación de medios reciclados o desechados",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-INF-07",
+      "group": "Compromiso de la información",
+      "name": "Divulgación",
+      "origin": [
+        "Accidental",
+        "Deliberada"
+      ],
+      "affects": [
+        "C"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-INF-08",
+      "group": "Compromiso de la información",
+      "name": "Datos de fuentes no confiables",
+      "origin": [
+        "Accidental",
+        "Deliberada"
+      ],
+      "affects": [
+        "I"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-INF-09",
+      "group": "Compromiso de la información",
+      "name": "Manipulación de hardware",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "I"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-INF-10",
+      "group": "Compromiso de la información",
+      "name": "Manipulación de software",
+      "origin": [
+        "Accidental",
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "I",
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-INF-11",
+      "group": "Compromiso de la información",
+      "name": "Detección de posición",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-TEC-01",
+      "group": "Fallas técnicas",
+      "name": "Falla de equipo",
+      "origin": [
+        "Accidental"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-TEC-02",
+      "group": "Fallas técnicas",
+      "name": "Mal funcionamiento de equipo",
+      "origin": [
+        "Accidental"
+      ],
+      "affects": [
+        "I",
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-TEC-03",
+      "group": "Fallas técnicas",
+      "name": "Saturación del sistema de información",
+      "origin": [
+        "Accidental",
+        "Deliberada"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-TEC-04",
+      "group": "Fallas técnicas",
+      "name": "Mal funcionamiento de software",
+      "origin": [
+        "Accidental"
+      ],
+      "affects": [
+        "I",
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-TEC-05",
+      "group": "Fallas técnicas",
+      "name": "Incumplimiento en la mantenibilidad del sistema",
+      "origin": [
+        "Accidental",
+        "Deliberada"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-ACC-01",
+      "group": "Acciones no autorizadas",
+      "name": "Uso no autorizado de equipo",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "I"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-ACC-02",
+      "group": "Acciones no autorizadas",
+      "name": "Copia fraudulenta de software",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-ACC-03",
+      "group": "Acciones no autorizadas",
+      "name": "Uso de software falsificado o copiado",
+      "origin": [
+        "Accidental",
+        "Deliberada"
+      ],
+      "affects": [
+        "I"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-ACC-04",
+      "group": "Acciones no autorizadas",
+      "name": "Corrupción de datos",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "I"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-ACC-05",
+      "group": "Acciones no autorizadas",
+      "name": "Procesamiento ilegal de datos",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-FUN-01",
+      "group": "Compromiso de funciones",
+      "name": "Error en el uso",
+      "origin": [
+        "Accidental"
+      ],
+      "affects": [
+        "I",
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-FUN-02",
+      "group": "Compromiso de funciones",
+      "name": "Abuso de derechos",
+      "origin": [
+        "Accidental",
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "I",
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-FUN-03",
+      "group": "Compromiso de funciones",
+      "name": "Falsificación de derechos",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "I"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-FUN-04",
+      "group": "Compromiso de funciones",
+      "name": "Repudio de acciones",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "I"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-FUN-05",
+      "group": "Compromiso de funciones",
+      "name": "Falta de disponibilidad del personal",
+      "origin": [
+        "Accidental",
+        "Deliberada",
+        "Ambiental"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "ISO/IEC 27005 (ejemplos típicos)"
+    },
+    {
+      "code": "AM-CIB-01",
+      "group": "Amenazas cibernéticas actuales (complementario)",
+      "name": "Phishing e ingeniería social",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "I"
+      ],
+      "source": "Complementario Atalaya"
+    },
+    {
+      "code": "AM-CIB-02",
+      "group": "Amenazas cibernéticas actuales (complementario)",
+      "name": "Ransomware",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "I",
+        "D"
+      ],
+      "source": "Complementario Atalaya"
+    },
+    {
+      "code": "AM-CIB-03",
+      "group": "Amenazas cibernéticas actuales (complementario)",
+      "name": "Malware (troyanos, infostealers)",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "I",
+        "D"
+      ],
+      "source": "Complementario Atalaya"
+    },
+    {
+      "code": "AM-CIB-04",
+      "group": "Amenazas cibernéticas actuales (complementario)",
+      "name": "Uso de credenciales filtradas / relleno de credenciales",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "I"
+      ],
+      "source": "Complementario Atalaya"
+    },
+    {
+      "code": "AM-CIB-05",
+      "group": "Amenazas cibernéticas actuales (complementario)",
+      "name": "Explotación de vulnerabilidades en servicios expuestos",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "I",
+        "D"
+      ],
+      "source": "Complementario Atalaya"
+    },
+    {
+      "code": "AM-CIB-06",
+      "group": "Amenazas cibernéticas actuales (complementario)",
+      "name": "Denegación de servicio distribuida (DDoS)",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "D"
+      ],
+      "source": "Complementario Atalaya"
+    },
+    {
+      "code": "AM-CIB-07",
+      "group": "Amenazas cibernéticas actuales (complementario)",
+      "name": "Compromiso de proveedor o cadena de suministro",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "I",
+        "D"
+      ],
+      "source": "Complementario Atalaya"
+    },
+    {
+      "code": "AM-CIB-08",
+      "group": "Amenazas cibernéticas actuales (complementario)",
+      "name": "Configuración errónea de servicios en la nube",
+      "origin": [
+        "Accidental"
+      ],
+      "affects": [
+        "C",
+        "D"
+      ],
+      "source": "Complementario Atalaya"
+    },
+    {
+      "code": "AM-CIB-09",
+      "group": "Amenazas cibernéticas actuales (complementario)",
+      "name": "Fuga de información por personal interno",
+      "origin": [
+        "Accidental",
+        "Deliberada"
+      ],
+      "affects": [
+        "C"
+      ],
+      "source": "Complementario Atalaya"
+    },
+    {
+      "code": "AM-CIB-10",
+      "group": "Amenazas cibernéticas actuales (complementario)",
+      "name": "Suplantación de marca o dominio (typosquatting)",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "I"
+      ],
+      "source": "Complementario Atalaya"
+    },
+    {
+      "code": "AM-CIB-11",
+      "group": "Amenazas cibernéticas actuales (complementario)",
+      "name": "Fraude por compromiso de correo de negocios (BEC)",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "I"
+      ],
+      "source": "Complementario Atalaya"
+    },
+    {
+      "code": "AM-CIB-12",
+      "group": "Amenazas cibernéticas actuales (complementario)",
+      "name": "Toma de cuentas privilegiadas",
+      "origin": [
+        "Deliberada"
+      ],
+      "affects": [
+        "C",
+        "I",
+        "D"
+      ],
+      "source": "Complementario Atalaya"
+    }
+  ]
+}

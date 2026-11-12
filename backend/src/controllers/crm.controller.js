@@ -74,3 +74,45 @@ export const getCompanyContacts = async (req, res) => {
     }
 
 };
+
+// Proyectos de una empresa del CRM. Se usa para ligar una operación (ej. una
+// evaluación de riesgos) a su proyecto comercial. ?line=Riesgos filtra por
+// línea de servicio. Reenvía con el MISMO token de staff.
+export const getCompanyProjects = async (req, res) => {
+
+    try {
+
+        const { companyId } = req.params;
+        const { line } = req.query;
+
+        const response = await fetch(`${CRM_API_URL}/api/projects/${companyId}`, {
+            headers: { "Authorization": req.headers.authorization || "" }
+        });
+
+        const data = await response.json().catch(() => ({}));
+
+        if (!response.ok) {
+            return res.status(response.status).json(data);
+        }
+
+        const projects = (data.projects || [])
+            .filter((p) => !line || p.line === line)
+            .map((p) => ({
+                crmProjectId: p._id,
+                name: p.name,
+                line: p.line,
+                status: p.status,
+                startDate: p.startDate,
+                dueDate: p.dueDate
+            }));
+
+        return res.status(200).json({ projects });
+
+    } catch (error) {
+        console.error("Error al leer proyectos del CRM:", error.message);
+        return res.status(502).json({
+            message: "No se pudo contactar al CRM. Verifica que esté arriba y CRM_API_URL."
+        });
+    }
+
+};

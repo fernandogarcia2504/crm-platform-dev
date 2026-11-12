@@ -1,0 +1,750 @@
+{
+  "standard": "ISO/IEC 27001:2022 Anexo A",
+  "note": "Nombres en español son traducción de trabajo; verificar contra la versión oficial (UNE-EN ISO/IEC 27001:2023 / NMX) si se entregan al cliente. El propósito y la guía de cada control están en ISO/IEC 27002:2022 (no se reproduce).",
+  "controls": [
+    {
+      "code": "A.5.1",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Políticas de seguridad de la información",
+      "nameEn": "Policies for information security",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.2",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Roles y responsabilidades de seguridad de la información",
+      "nameEn": "Information security roles and responsibilities",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.3",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Segregación de funciones",
+      "nameEn": "Segregation of duties",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.4",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Responsabilidades de la dirección",
+      "nameEn": "Management responsibilities",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.5",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Contacto con autoridades",
+      "nameEn": "Contact with authorities",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.6",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Contacto con grupos de interés especial",
+      "nameEn": "Contact with special interest groups",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.7",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Inteligencia de amenazas",
+      "nameEn": "Threat intelligence",
+      "newIn2022": true
+    },
+    {
+      "code": "A.5.8",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Seguridad de la información en la gestión de proyectos",
+      "nameEn": "Information security in project management",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.9",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Inventario de información y otros activos asociados",
+      "nameEn": "Inventory of information and other associated assets",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.10",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Uso aceptable de la información y otros activos asociados",
+      "nameEn": "Acceptable use of information and other associated assets",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.11",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Devolución de activos",
+      "nameEn": "Return of assets",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.12",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Clasificación de la información",
+      "nameEn": "Classification of information",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.13",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Etiquetado de la información",
+      "nameEn": "Labelling of information",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.14",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Transferencia de información",
+      "nameEn": "Information transfer",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.15",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Control de acceso",
+      "nameEn": "Access control",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.16",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Gestión de identidades",
+      "nameEn": "Identity management",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.17",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Información de autenticación",
+      "nameEn": "Authentication information",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.18",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Derechos de acceso",
+      "nameEn": "Access rights",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.19",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Seguridad de la información en las relaciones con proveedores",
+      "nameEn": "Information security in supplier relationships",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.20",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Tratamiento de la seguridad de la información en los acuerdos con proveedores",
+      "nameEn": "Addressing information security within supplier agreements",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.21",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Gestión de la seguridad de la información en la cadena de suministro de TIC",
+      "nameEn": "Managing information security in the ICT supply chain",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.22",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Monitoreo, revisión y gestión de cambios de los servicios de proveedores",
+      "nameEn": "Monitoring, review and change management of supplier services",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.23",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Seguridad de la información para el uso de servicios en la nube",
+      "nameEn": "Information security for use of cloud services",
+      "newIn2022": true
+    },
+    {
+      "code": "A.5.24",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Planificación y preparación de la gestión de incidentes de seguridad de la información",
+      "nameEn": "Information security incident management planning and preparation",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.25",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Evaluación y decisión sobre eventos de seguridad de la información",
+      "nameEn": "Assessment and decision on information security events",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.26",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Respuesta a incidentes de seguridad de la información",
+      "nameEn": "Response to information security incidents",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.27",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Aprendizaje de los incidentes de seguridad de la información",
+      "nameEn": "Learning from information security incidents",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.28",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Recopilación de evidencias",
+      "nameEn": "Collection of evidence",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.29",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Seguridad de la información durante una interrupción",
+      "nameEn": "Information security during disruption",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.30",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Preparación de las TIC para la continuidad del negocio",
+      "nameEn": "ICT readiness for business continuity",
+      "newIn2022": true
+    },
+    {
+      "code": "A.5.31",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Requisitos legales, estatutarios, regulatorios y contractuales",
+      "nameEn": "Legal, statutory, regulatory and contractual requirements",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.32",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Derechos de propiedad intelectual",
+      "nameEn": "Intellectual property rights",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.33",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Protección de los registros",
+      "nameEn": "Protection of records",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.34",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Privacidad y protección de datos personales (PII)",
+      "nameEn": "Privacy and protection of PII",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.35",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Revisión independiente de la seguridad de la información",
+      "nameEn": "Independent review of information security",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.36",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Cumplimiento de políticas, reglas y normas de seguridad de la información",
+      "nameEn": "Compliance with policies, rules and standards for information security",
+      "newIn2022": false
+    },
+    {
+      "code": "A.5.37",
+      "theme": "5",
+      "themeName": "Organizacionales",
+      "name": "Procedimientos operativos documentados",
+      "nameEn": "Documented operating procedures",
+      "newIn2022": false
+    },
+    {
+      "code": "A.6.1",
+      "theme": "6",
+      "themeName": "Personas",
+      "name": "Investigación de antecedentes",
+      "nameEn": "Screening",
+      "newIn2022": false
+    },
+    {
+      "code": "A.6.2",
+      "theme": "6",
+      "themeName": "Personas",
+      "name": "Términos y condiciones de contratación",
+      "nameEn": "Terms and conditions of employment",
+      "newIn2022": false
+    },
+    {
+      "code": "A.6.3",
+      "theme": "6",
+      "themeName": "Personas",
+      "name": "Concientización, educación y capacitación en seguridad de la información",
+      "nameEn": "Information security awareness, education and training",
+      "newIn2022": false
+    },
+    {
+      "code": "A.6.4",
+      "theme": "6",
+      "themeName": "Personas",
+      "name": "Proceso disciplinario",
+      "nameEn": "Disciplinary process",
+      "newIn2022": false
+    },
+    {
+      "code": "A.6.5",
+      "theme": "6",
+      "themeName": "Personas",
+      "name": "Responsabilidades tras la terminación o cambio de empleo",
+      "nameEn": "Responsibilities after termination or change of employment",
+      "newIn2022": false
+    },
+    {
+      "code": "A.6.6",
+      "theme": "6",
+      "themeName": "Personas",
+      "name": "Acuerdos de confidencialidad o no divulgación",
+      "nameEn": "Confidentiality or non-disclosure agreements",
+      "newIn2022": false
+    },
+    {
+      "code": "A.6.7",
+      "theme": "6",
+      "themeName": "Personas",
+      "name": "Trabajo remoto",
+      "nameEn": "Remote working",
+      "newIn2022": false
+    },
+    {
+      "code": "A.6.8",
+      "theme": "6",
+      "themeName": "Personas",
+      "name": "Reporte de eventos de seguridad de la información",
+      "nameEn": "Information security event reporting",
+      "newIn2022": false
+    },
+    {
+      "code": "A.7.1",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Perímetros de seguridad física",
+      "nameEn": "Physical security perimeters",
+      "newIn2022": false
+    },
+    {
+      "code": "A.7.2",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Controles físicos de entrada",
+      "nameEn": "Physical entry",
+      "newIn2022": false
+    },
+    {
+      "code": "A.7.3",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Seguridad de oficinas, salas e instalaciones",
+      "nameEn": "Securing offices, rooms and facilities",
+      "newIn2022": false
+    },
+    {
+      "code": "A.7.4",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Monitoreo de la seguridad física",
+      "nameEn": "Physical security monitoring",
+      "newIn2022": true
+    },
+    {
+      "code": "A.7.5",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Protección contra amenazas físicas y ambientales",
+      "nameEn": "Protecting against physical and environmental threats",
+      "newIn2022": false
+    },
+    {
+      "code": "A.7.6",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Trabajo en áreas seguras",
+      "nameEn": "Working in secure areas",
+      "newIn2022": false
+    },
+    {
+      "code": "A.7.7",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Escritorio limpio y pantalla limpia",
+      "nameEn": "Clear desk and clear screen",
+      "newIn2022": false
+    },
+    {
+      "code": "A.7.8",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Ubicación y protección de equipos",
+      "nameEn": "Equipment siting and protection",
+      "newIn2022": false
+    },
+    {
+      "code": "A.7.9",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Seguridad de los activos fuera de las instalaciones",
+      "nameEn": "Security of assets off-premises",
+      "newIn2022": false
+    },
+    {
+      "code": "A.7.10",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Medios de almacenamiento",
+      "nameEn": "Storage media",
+      "newIn2022": false
+    },
+    {
+      "code": "A.7.11",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Servicios de suministro",
+      "nameEn": "Supporting utilities",
+      "newIn2022": false
+    },
+    {
+      "code": "A.7.12",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Seguridad del cableado",
+      "nameEn": "Cabling security",
+      "newIn2022": false
+    },
+    {
+      "code": "A.7.13",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Mantenimiento de equipos",
+      "nameEn": "Equipment maintenance",
+      "newIn2022": false
+    },
+    {
+      "code": "A.7.14",
+      "theme": "7",
+      "themeName": "Físicos",
+      "name": "Eliminación o reutilización segura de equipos",
+      "nameEn": "Secure disposal or re-use of equipment",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.1",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Dispositivos de punto final de usuario",
+      "nameEn": "User endpoint devices",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.2",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Derechos de acceso privilegiado",
+      "nameEn": "Privileged access rights",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.3",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Restricción de acceso a la información",
+      "nameEn": "Information access restriction",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.4",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Acceso al código fuente",
+      "nameEn": "Access to source code",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.5",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Autenticación segura",
+      "nameEn": "Secure authentication",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.6",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Gestión de la capacidad",
+      "nameEn": "Capacity management",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.7",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Protección contra malware",
+      "nameEn": "Protection against malware",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.8",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Gestión de vulnerabilidades técnicas",
+      "nameEn": "Management of technical vulnerabilities",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.9",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Gestión de la configuración",
+      "nameEn": "Configuration management",
+      "newIn2022": true
+    },
+    {
+      "code": "A.8.10",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Eliminación de información",
+      "nameEn": "Information deletion",
+      "newIn2022": true
+    },
+    {
+      "code": "A.8.11",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Enmascaramiento de datos",
+      "nameEn": "Data masking",
+      "newIn2022": true
+    },
+    {
+      "code": "A.8.12",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Prevención de fuga de datos",
+      "nameEn": "Data leakage prevention",
+      "newIn2022": true
+    },
+    {
+      "code": "A.8.13",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Respaldo de la información",
+      "nameEn": "Information backup",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.14",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Redundancia de las instalaciones de procesamiento de información",
+      "nameEn": "Redundancy of information processing facilities",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.15",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Registro de eventos (logging)",
+      "nameEn": "Logging",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.16",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Actividades de monitoreo",
+      "nameEn": "Monitoring activities",
+      "newIn2022": true
+    },
+    {
+      "code": "A.8.17",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Sincronización de relojes",
+      "nameEn": "Clock synchronization",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.18",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Uso de programas utilitarios privilegiados",
+      "nameEn": "Use of privileged utility programs",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.19",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Instalación de software en sistemas operativos",
+      "nameEn": "Installation of software on operational systems",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.20",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Seguridad de redes",
+      "nameEn": "Networks security",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.21",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Seguridad de los servicios de red",
+      "nameEn": "Security of network services",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.22",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Segregación de redes",
+      "nameEn": "Segregation of networks",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.23",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Filtrado web",
+      "nameEn": "Web filtering",
+      "newIn2022": true
+    },
+    {
+      "code": "A.8.24",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Uso de criptografía",
+      "nameEn": "Use of cryptography",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.25",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Ciclo de vida de desarrollo seguro",
+      "nameEn": "Secure development life cycle",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.26",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Requisitos de seguridad de las aplicaciones",
+      "nameEn": "Application security requirements",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.27",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Principios de arquitectura e ingeniería de sistemas seguros",
+      "nameEn": "Secure system architecture and engineering principles",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.28",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Codificación segura",
+      "nameEn": "Secure coding",
+      "newIn2022": true
+    },
+    {
+      "code": "A.8.29",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Pruebas de seguridad en desarrollo y aceptación",
+      "nameEn": "Security testing in development and acceptance",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.30",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Desarrollo subcontratado",
+      "nameEn": "Outsourced development",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.31",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Separación de los entornos de desarrollo, prueba y producción",
+      "nameEn": "Separation of development, test and production environments",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.32",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Gestión de cambios",
+      "nameEn": "Change management",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.33",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Información de prueba",
+      "nameEn": "Test information",
+      "newIn2022": false
+    },
+    {
+      "code": "A.8.34",
+      "theme": "8",
+      "themeName": "Tecnológicos",
+      "name": "Protección de los sistemas de información durante las pruebas de auditoría",
+      "nameEn": "Protection of information systems during audit testing",
+      "newIn2022": false
+    }
+  ]
+}

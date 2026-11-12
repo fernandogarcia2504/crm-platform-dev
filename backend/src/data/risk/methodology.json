@@ -1,0 +1,61 @@
+{
+  "name": "Metodología Atalaya de gestión de riesgos v1",
+  "basis": "ISO/IEC 27001:2022 cl. 6.1.2 y 6.1.3, guía ISO/IEC 27005:2022 (enfoque basado en activos + fuentes de riesgo)",
+  "probability": [
+    { "value": 1, "label": "Baja", "description": "Eventos poco probables; pueden suceder raramente, en circunstancias muy específicas o bajo condiciones extremas." },
+    { "value": 2, "label": "Media", "description": "Posibilidad considerable de que ocurra, pero no es inevitable; puede ocurrir ocasionalmente según ciertas condiciones." },
+    { "value": 3, "label": "Alta", "description": "Altamente probable en un futuro previsible; puede ocurrir con frecuencia o regularidad." }
+  ],
+  "impactScale": [
+    { "value": 0, "label": "Nulo", "description": "Consecuencias inexistentes o sin efecto en activos o procesos." },
+    { "value": 1, "label": "Bajo", "description": "Consecuencias mínimas, fácilmente gestionables o mitigables." },
+    { "value": 2, "label": "Medio", "description": "Consecuencias significativas pero manejables; no amenazan la viabilidad ni la continuidad." },
+    { "value": 3, "label": "Alto", "description": "Consecuencias graves; requieren respuesta inmediata para proteger a la organización." }
+  ],
+  "riskImpactDimensions": [
+    { "key": "financiero", "label": "Financiero", "description": "Pérdida de ingresos (operación, ventas, inversiones, proveedores) o penalizaciones contractuales." },
+    { "key": "operativo", "label": "Operativo", "description": "Evento adverso a las operaciones de la organización." },
+    { "key": "reputacion", "label": "Reputación", "description": "Efecto negativo en la imagen ante clientes, colaboradores, socios, reguladores y sociedad." },
+    { "key": "regulatorio", "label": "Incumplimiento regulatorio", "description": "Sanciones o multas por incumplir normatividad nacional, local, institucional o tributaria." },
+    { "key": "perdidaClientes", "label": "Pérdida de clientes", "description": "Pérdida de clientes por baja calidad o imposibilidad de captar nuevos." },
+    { "key": "accesibilidad", "label": "Accesibilidad", "description": "Afectación al acceso de usuarios o clientes al servicio." },
+    { "key": "legal", "label": "Legal", "description": "Demandas de clientes, proveedores, colaboradores o socios." },
+    { "key": "sociedad", "label": "Sociedad", "description": "Afectación a terceros o a la sociedad en general." },
+    { "key": "confidencialidad", "label": "Confidencialidad", "group": "CID", "description": "Personas no autorizadas acceden a la información." },
+    { "key": "integridad", "label": "Integridad", "group": "CID", "description": "La información es modificada sin autorización." },
+    { "key": "disponibilidad", "label": "Disponibilidad", "group": "CID", "description": "La información no está disponible cuando se necesita." }
+  ],
+  "opportunityImpactDimensions": [
+    { "key": "financiero", "label": "Financiero" },
+    { "key": "operativo", "label": "Operativo" },
+    { "key": "reputacion", "label": "Reputación" },
+    { "key": "regulatorio", "label": "Cumplimiento regulatorio" },
+    { "key": "perdidaClientes", "label": "Retención / captación de clientes" },
+    { "key": "objetivos", "label": "Objetivos", "description": "Contribuye a los objetivos de la organización o del SGSI." },
+    { "key": "legal", "label": "Legal" },
+    { "key": "capacidad", "label": "Capacidad", "description": "Mejor ajuste entre recursos y demanda." },
+    { "key": "nivelesServicio", "label": "Niveles de servicio", "group": "Servicio" },
+    { "key": "disponibilidadServicio", "label": "Disponibilidad del servicio", "group": "Servicio" },
+    { "key": "continuidad", "label": "Continuidad del servicio", "group": "Servicio" }
+  ],
+  "impactAggregation": {
+    "method": "max",
+    "options": ["max", "avg", "maxAvg"],
+    "note": "max = la peor consecuencia manda (recomendado, conservador). avg diluye: un impacto Alto entre varios Nulos sale Bajo. maxAvg = promedio entre el máximo y el promedio."
+  },
+  "levels": [
+    { "label": "Alto", "min": 6, "color": "#CC0000" },
+    { "label": "Medio", "min": 3, "color": "#F1C232" },
+    { "label": "Bajo", "min": 0, "color": "#6AA84F" }
+  ],
+  "assetCriticality": [
+    { "value": 3, "label": "Crítico", "operation": "Su afectación o pérdida detendría el servicio.", "business": "Altamente valioso; su pérdida afecta negativamente al negocio." },
+    { "value": 2, "label": "Medio", "operation": "Su afectación disminuiría la calidad o nivel del servicio.", "business": "Moderadamente valioso para la organización." },
+    { "value": 1, "label": "Bajo", "operation": "Bajo o nulo impacto en la prestación del servicio.", "business": "Poco o nulo valor; sin afectación negativa al negocio." }
+  ],
+  "treatmentOptions": ["Mitigar", "Transferir", "Evitar", "Aceptar"],
+  "treatmentStatus": ["Pendiente", "En proceso", "Implementado", "Cancelado"],
+  "effectiveness": ["No evaluado", "Eficaz", "Parcialmente eficaz", "No eficaz"],
+  "monitoringFrequency": ["Mensual", "Trimestral", "Semestral", "Anual"],
+  "defaultAcceptanceLevel": "Bajo"
+}

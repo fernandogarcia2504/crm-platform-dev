@@ -12,6 +12,7 @@ import crmRoutes from "./routes/crm.routes.js";
 import clientAccountRoutes from "./routes/clientAccount.routes.js";
 import clientAuthRoutes from "./routes/clientAuth.routes.js";
 import clientPortalRoutes from "./routes/clientPortal.routes.js";
+import riskRoutes from "./routes/risk.routes.js";
 
 import { verifyStaff, verifyTrainee, verifyClient } from "./middlewares/auth.middleware.js";
 
@@ -77,7 +78,12 @@ app.use("/api/client-portal", verifyClient, clientPortalRoutes);
 // ejemplo. Cuando se active, su operación (orquestador de herramientas,
 // hallazgos, reporte de postura) vivirá aquí, aislada de las demás.
 
-// --- Líneas: Investigación y Debida Diligencia / Evaluación de Riesgos ---
-// Placeholders por ahora (sin backend).
+// --- Línea: Evaluación de Riesgos (ISO 27001:2022 / ISO 27005:2022) ---
+// Evaluaciones ligadas a proyectos del CRM (crmProjectId), con activos,
+// riesgos, tratamientos, residual, SoA y mapa de calor.
+app.use("/api/risk", verifyStaff, riskRoutes);
+
+// --- Línea: Investigación y Debida Diligencia ---
+// Placeholder por ahora (sin backend).
 
 export default app;

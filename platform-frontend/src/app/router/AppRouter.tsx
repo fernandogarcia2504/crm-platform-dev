@@ -23,6 +23,10 @@ import CampaignDetailPage from "../../features/awareness/CampaignDetailPage";
 import ReportsPage from "../../features/awareness/ReportsPage";
 import ClientAccessPage from "../../features/awareness/ClientAccessPage";
 
+import RiskAssessmentsPage from "../../features/risk/RiskAssessmentsPage";
+import RiskAssessmentDetailPage from "../../features/risk/RiskAssessmentDetailPage";
+import CatalogPage from "../../features/risk/CatalogPage";
+
 import ComingSoonPage from "../../features/placeholder/ComingSoonPage";
 
 import TraineeLoginPage from "../../features/trainee/TraineeLoginPage";
@@ -61,7 +65,9 @@ export default function AppRouter() {
                                 <Route path="/concientizacion/accesos" element={<ClientAccessPage />} />
 
                                 <Route path="/investigacion" element={<ComingSoonPage line="Investigación y Debida Diligencia" />} />
-                                <Route path="/riesgos" element={<ComingSoonPage line="Evaluación de Riesgos" />} />
+                                <Route path="/riesgos" element={<RiskAssessmentsPage />} />
+                                <Route path="/catalogo-iso27001" element={<CatalogPage />} />
+                                <Route path="/riesgos/:assessmentId" element={<RiskAssessmentDetailPage />} />
                             </Route>
                         </Route>
                     </Routes>

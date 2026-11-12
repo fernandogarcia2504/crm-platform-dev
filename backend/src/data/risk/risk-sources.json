@@ -1,0 +1,128 @@
+{
+  "note": "Enfoque basado en eventos de ISO/IEC 27005:2022 (fuentes de riesgo y estado final deseado). Categorías alineadas con EBIOS Risk Manager.",
+  "riskSources": [
+    {
+      "code": "FR-01",
+      "name": "Estado-nación / actor patrocinado",
+      "type": "Externa deliberada",
+      "description": "Grupos con recursos altos y persistencia; buscan espionaje o preposicionamiento."
+    },
+    {
+      "code": "FR-02",
+      "name": "Crimen organizado",
+      "type": "Externa deliberada",
+      "description": "Busca beneficio económico: ransomware, fraude, venta de datos."
+    },
+    {
+      "code": "FR-03",
+      "name": "Hacktivista",
+      "type": "Externa deliberada",
+      "description": "Motivación ideológica; desfiguración, filtraciones, DDoS."
+    },
+    {
+      "code": "FR-04",
+      "name": "Mercenario cibernético / grupo especializado",
+      "type": "Externa deliberada",
+      "description": "Ataques por encargo, a menudo de un competidor u otro actor."
+    },
+    {
+      "code": "FR-05",
+      "name": "Atacante oportunista / aficionado",
+      "type": "Externa deliberada",
+      "description": "Escaneo masivo y explotación de fallas conocidas; bajo nivel de sofisticación."
+    },
+    {
+      "code": "FR-06",
+      "name": "Competidor",
+      "type": "Externa deliberada",
+      "description": "Espionaje industrial o daño reputacional."
+    },
+    {
+      "code": "FR-07",
+      "name": "Ex-empleado o persona resentida",
+      "type": "Interna/externa deliberada",
+      "description": "Venganza; usa conocimiento interno o accesos no revocados."
+    },
+    {
+      "code": "FR-08",
+      "name": "Empleado malintencionado",
+      "type": "Interna deliberada",
+      "description": "Robo o sabotaje desde dentro."
+    },
+    {
+      "code": "FR-09",
+      "name": "Empleado o usuario negligente",
+      "type": "Interna accidental",
+      "description": "Errores, descuidos, caída en phishing."
+    },
+    {
+      "code": "FR-10",
+      "name": "Proveedor o tercero",
+      "type": "Externa accidental/deliberada",
+      "description": "Compromiso o falla en la cadena de suministro."
+    },
+    {
+      "code": "FR-11",
+      "name": "Fallas técnicas",
+      "type": "Accidental",
+      "description": "Hardware, software o servicios que fallan sin intención."
+    },
+    {
+      "code": "FR-12",
+      "name": "Entorno y naturaleza",
+      "type": "Ambiental",
+      "description": "Sismos, inundaciones, fallas eléctricas regionales."
+    }
+  ],
+  "desiredEndStates": [
+    {
+      "code": "OB-01",
+      "name": "Espionaje",
+      "description": "Obtener información confidencial (estratégica, de clientes, propiedad intelectual)."
+    },
+    {
+      "code": "OB-02",
+      "name": "Preposicionamiento",
+      "description": "Establecer acceso persistente para explotarlo después."
+    },
+    {
+      "code": "OB-03",
+      "name": "Influencia",
+      "description": "Difundir información falsa o dañar la imagen de la organización."
+    },
+    {
+      "code": "OB-04",
+      "name": "Obstrucción / sabotaje",
+      "description": "Impedir o degradar la operación o el servicio."
+    },
+    {
+      "code": "OB-05",
+      "name": "Beneficio económico",
+      "description": "Obtener dinero: extorsión, fraude, reventa de datos o accesos."
+    },
+    {
+      "code": "OB-06",
+      "name": "Reto / reconocimiento",
+      "description": "Demostrar capacidad o notoriedad."
+    },
+    {
+      "code": "OB-07",
+      "name": "Venganza",
+      "description": "Causar daño a la organización o a personas específicas."
+    }
+  ],
+  "securityObjectives": [
+    {
+      "code": "OS-C",
+      "name": "Confidencialidad"
+    },
+    {
+      "code": "OS-I",
+      "name": "Integridad"
+    },
+    {
+      "code": "OS-D",
+      "name": "Disponibilidad"
+    }
+  ]
+}
